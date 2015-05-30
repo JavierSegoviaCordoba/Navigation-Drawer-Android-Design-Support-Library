@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="fitsSystemWindows">true</bool>
+    <dimen name="navigation_drawer_header_margin">16dp</dimen>
+    <dimen name="status_bar_height">0dp</dimen>
+</resources>
