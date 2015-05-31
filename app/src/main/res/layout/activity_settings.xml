@@ -26,4 +26,5 @@
         android:text="Settings"
         android:textColor="@color/md_text" />
 
+
 </FrameLayout>
