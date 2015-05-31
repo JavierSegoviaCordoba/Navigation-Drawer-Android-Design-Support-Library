@@ -13,24 +13,20 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/status_bar_height"
+            android:layout_height="@dimen/status_bar_kitkat_height"
             android:background="?colorPrimary"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/status_bar_lollipop_height"
+            android:background="?colorPrimaryDark"/>
 
     </LinearLayout>
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/status_bar_height">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?actionBarSize"
-            android:background="?attr/colorPrimary"
-            android:elevation="4dp"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            app:theme="@style/ToolbarTheme" />
+        android:layout_marginTop="@dimen/status_bar_margin_top">
 
         <TextView
             android:id="@+id/textView"
@@ -40,6 +36,15 @@
             android:text="Inbox"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="@color/md_text" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ToolbarTheme" />
 
     </FrameLayout>
 
